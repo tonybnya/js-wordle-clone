@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- FAVICON -->
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <title>JS Wordle Clone (By tonybnya)</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav-center">
+        <!-- Logo -->
+        <div class="nav-header">
+          <img src="img/logo.png" class="logo" alt="Wordle Clone Logo" />
+        </div>
+        <!-- Social Media -->
+        <ul class="social-icons">
+          <li>
+            <a href="https://github.com/tonybnya">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/tonybnya">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <br />
+
+    <!-- Header -->
+    <div class="title">
+      <h1><a href="https://www.nytimes.com/games/wordle/index.html">WORDLE</a> - The Trending Words Game.</h1>
+      <h3>Original Author: <a href="https://powerlanguage.co.uk/">Josh Wardle</a> | Owner: <a href="https://www.nytimes.com/">The New York Times</a><h3>
+    </div>
+
+    <br />
+
+    <!-- Game Container -->
+    <main>
+      <!-- Game Board -->
+      <div id="game-board"></div>
+
+      <!-- Keyboard Board -->
+      <div id="keyboard-container">
+        <div class="first-row">
+          <button class="keyboard-button">q</button>
+          <button class="keyboard-button">w</button>
+          <button class="keyboard-button">e</button>
+          <button class="keyboard-button">r</button>
+          <button class="keyboard-button">t</button>
+          <button class="keyboard-button">y</button>
+          <button class="keyboard-button">u</button>
+          <button class="keyboard-button">i</button>
+          <button class="keyboard-button">o</button>
+          <button class="keyboard-button">p</button>
+        </div>
+        <div class="second-row">
+          <button class="keyboard-button">q</button>
+          <button class="keyboard-button">s</button>
+          <button class="keyboard-button">d</button>
+          <button class="keyboard-button">f</button>
+          <button class="keyboard-button">g</button>
+          <button class="keyboard-button">h</button>
+          <button class="keyboard-button">j</button>
+          <button class="keyboard-button">k</button>
+          <button class="keyboard-button">l</button>
+        </div>
+        <div class="third-row">
+          <button class="keyboard-button kb-btn-special">Del</button>
+          <button class="keyboard-button">z</button>
+          <button class="keyboard-button">x</button>
+          <button class="keyboard-button">c</button>
+          <button class="keyboard-button">v</button>
+          <button class="keyboard-button">b</button>
+          <button class="keyboard-button">n</button>
+          <button class="keyboard-button">m</button>
+          <button class="keyboard-button kb-btn-special">Enter</button>
+        </div>
+      </div>
+    </main>
+
+    <br />
+
+    <!-- Footer -->
+    <footer>
+        <strong><p>&copy; 2022 - Made by tonybnya.</p></strong>
+    </footer>
+
+    <!-- JavaScript App -->
+    <script src="./js/app.js" type="module"></script>
+  </body>
+</html>
